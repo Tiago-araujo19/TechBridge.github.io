@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechBridge - Fale Conosco</title>
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <!-- Logo -->
+                    <a href="index.html" class="logo">
+                        <div class="logo-icon">
+                            <img src="img/logo-techbridge.png" alt="TechBridge Logo">
+                        </div>
+                        <span class="logo-text">TechBridge</span>
+                    </a>
+
+                <!-- Desktop Navigation -->
+                <div class="nav-menu">
+                    <a href="index.html" class="nav-link">Início</a>
+                    <a href="sobre.html" class="nav-link">Sobre Nós</a>
+                    <a href="solucoes.html" class="nav-link">Nossas Soluções</a>
+                    <a href="segmentos.html" class="nav-link">Segmentos e Diferenciais</a>
+                    <a href="contato.html" class="nav-link active">Fale Conosco</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <div class="mobile-nav-content">
+                <a href="index.html" class="mobile-nav-link">Início</a>
+                <a href="sobre.html" class="mobile-nav-link">Sobre Nós</a>
+                <a href="solucoes.html" class="mobile-nav-link">Nossas Soluções</a>
+                <a href="segmentos.html" class="mobile-nav-link">Segmentos e Diferenciais</a>
+                <a href="contato.html" class="mobile-nav-link active">Fale Conosco</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1>Fale Conosco</h1>
+                <p>Estamos prontos para ajudar sua empresa a alcançar novos patamares com tecnologia</p>
+            </div>
+        </section>
+
+        <!-- Contact Content -->
+        <section class="content-section">
+            <div class="container">
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h2>Entre em Contato</h2>
+                        <p>Tem alguma dúvida, sugestão ou quer saber mais sobre nossos serviços? Preencha o formulário ao lado ou entre em contato através dos canais abaixo. Nossa equipe está pronta para atendê-lo.</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <h3>E-mail</h3>
+                                <p>techbridgestartup@gmail.com</p>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <h3>Instagram</h3>
+                                <p>@techbridgestartup</p>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <h3>Endereço</h3>
+                                <p>Av. EEEP Paulo VI<br>Ceará - CE</p>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <h3>Horário de Atendimento</h3>
+                                <p>Segunda a Sexta: 9h às 18h<br>Sábado: 9h às 13h</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Nome Completo *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="company">Empresa</label>
+                                <input type="text" id="company" name="company">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">E-mail *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone">Telefone</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Assunto *</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">Selecione um assunto</option>
+                                    <option value="orcamento">Solicitar Orçamento</option>
+                                    <option value="duvida">Tirar Dúvidas</option>
+                                    <option value="parceria">Proposta de Parceria</option>
+                                    <option value="suporte">Suporte Técnico</option>
+                                    <option value="outro">Outro</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Mensagem *</label>
+                                <textarea id="message" name="message" required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-dark" style="width: 100%;">Enviar Mensagem</button>
+                        </form>
+                    </div>
+                </div>
+                
+                <div class="section-header" style="margin-top: 5rem;">
+                    <h2>Perguntas Frequentes</h2>
+                    <p>Tire suas dúvidas sobre nossos serviços e processos</p>
+                </div>
+                
+                <div class="segments-grid" style="margin-top: 2rem;">
+                    <div class="segment-card">
+                        <h3>Quanto tempo leva para desenvolver um projeto?</h3>
+                        <p>O prazo varia de acordo com a complexidade do projeto. Desenvolvimentos simples podem levar de 2 a 4 semanas, enquanto projetos mais complexos podem levar de 3 a 6 meses. Após análise detalhada, apresentamos um cronograma realista.</p>
+                    </div>
+                    
+                    <div class="segment-card">
+                        <h3>Vocês oferecem suporte após a entrega?</h3>
+                        <p>Sim, oferecemos pacotes de suporte técnico que incluem manutenção preventiva, correção de bugs, atualizações de segurança e suporte evolutivo para adaptar a solução às necessidades em constante mudança do seu negócio.</p>
+                    </div>
+                    
+                    <div class="segment-card">
+                        <h3>Como funciona o processo de desenvolvimento?</h3>
+                        <p>Trabalhamos com metodologias ágeis. O processo inclui: diagnóstico, planejamento, desenvolvimento em sprints, testes e implantação. Mantemos comunicação constante com o cliente em todas as etapas.</p>
+                    </div>
+                    
+                    <div class="segment-card">
+                        <h3>Quais tecnologias vocês utilizam?</h3>
+                        <p>Utilizamos as tecnologias mais adequadas para cada projeto, incluindo React, Angular, Vue.js, Node.js, Python, Java, .NET, AWS, Azure, Docker, Kubernetes e outras tecnologias modernas e escaláveis.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                      <div class="footer-logo">
+                          <div class="logo-icon">
+                             <img src="img/logo-techbridge.png" alt="TechBridge Logo">
+                         </div>
+                         <span class="logo-text">TechBridge</span>
+                     </div>
+                    <p>Conectando você à era da inovação através de soluções tecnológicas personalizadas.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Navegação</h3>
+                    <div class="footer-links">
+                        <a href="index.html">Início</a>
+                        <a href="sobre.html">Sobre Nós</a>
+                        <a href="solucoes.html">Nossas Soluções</a>
+                        <a href="segmentos.html">Segmentos e Diferenciais</a>
+                        <a href="contato.html">Fale Conosco</a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contato</h3>
+                    <div class="footer-contact">
+                        <p>techbridgestartup@gmail.com</p>
+                        <p>@techbridgestartup</p>
+                        <p>Ceará - CE</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2025 TechBridge. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
